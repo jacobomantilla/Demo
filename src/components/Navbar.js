@@ -127,13 +127,13 @@ function Navbar() {
                 Contact  
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link onClick ={loginSuccess}>
                <bottom  className="btn" style={{ cursor: "pointer" }}>
                       Sign Up
                 </bottom>
              </Link>
-            </li>
+            </li> */}
             <li>
              <Link  onClick ={loginSuccess}>
                <button className="btn" style={{ cursor: "pointer" }}>
