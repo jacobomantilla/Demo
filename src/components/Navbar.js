@@ -88,6 +88,30 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
+                 {/* Forum
+                </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              > */}
+                 Schedule
+                </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
                 About
               </Link>
             </li>
