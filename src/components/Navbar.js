@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from '../containers/Login'
+//import Login from '../containers/Login'
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {
