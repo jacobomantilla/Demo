@@ -5,6 +5,7 @@ import Contact from '../components/Contact';
 import Schedule from './Schedule';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import VirtualTour from './Tour';
 //import Login from './Login';
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
       <main>
         <Services />
         {/* <Forum /> */}
+        <VirtualTour/>
         <Schedule />
         <About />
         <Contact />
