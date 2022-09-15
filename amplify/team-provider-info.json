@@ -11,5 +11,33 @@
       "StackId": "arn:aws:cloudformation:us-east-1:603290540500:stack/amplify-demo-dev-94842/f3d56b60-3433-11ed-a357-122b57f42d3f",
       "AmplifyAppId": "d43xopqaqq0pb"
     }
+  },
+  "demo": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demo-demo-33801-authRole",
+      "UnauthRoleArn": "arn:aws:iam::234522245901:role/amplify-demo-demo-33801-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::234522245901:role/amplify-demo-demo-33801-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-demo-demo-33801-deployment",
+      "UnauthRoleName": "amplify-demo-demo-33801-unauthRole",
+      "StackName": "amplify-demo-demo-33801",
+      "StackId": "arn:aws:cloudformation:us-east-1:234522245901:stack/amplify-demo-demo-33801/5495d5d0-34c9-11ed-a7b3-0a32ee7e1d0d",
+      "AmplifyAppId": "dl8c6vs2ed6h0",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-demo-demo-33801-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "function": {
+        "demogroupCustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "http://localhost:3000/",
+          "EMAILMESSAGE": "abc",
+          "deploymentBucketName": "amplify-demo-demo-33801-deployment",
+          "s3Key": "amplify-builds/demogroupCustomMessage-343476497a505170646b-build.zip"
+        }
+      },
+      "auth": {
+        "democb6b0078": {}
+      }
+    }
   }
 }

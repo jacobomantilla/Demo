@@ -13,7 +13,6 @@ function Main() {
     <>
       <main>
         <Services />
-        {/* <Forum /> */}
         <VirtualTour/>
         <Schedule />
         <About />

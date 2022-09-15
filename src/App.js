@@ -7,23 +7,18 @@ import Schedule from "./components/Schedule";
 import Month from "./components/Month";
 
 //import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-//import Routes from "./Routes";
-import Login from "./containers/Login";
+import { BrowserRouter as Router, Route,NavLink} from "react-router-dom";
+import Routes from "./Routes";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Navbar />
       <Header />
       <Main />
+      <Routes />
       <Footer />
-      <Router>
-         <Route path="/" component={App}>
-            <Route path="login" component={Login}/>
-         </Route>
-      </Router>
-    </>
+    </div>
   );
 }
 

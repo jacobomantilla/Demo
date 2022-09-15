@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Login from '../containers/Login'
+import Routes from "../Routes"
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {
@@ -33,8 +33,8 @@ function Navbar() {
   }
   //login signup
   function loginSuccess(){
-    alert("success!")
-    //window.open("../containers/Login.js")
+    //alert("success!")
+    window.open("/login")
   }
   function signUpSuccess(){
     alert("success!")

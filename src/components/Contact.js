@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+function gotop(){
+     window.open('/');
+}
 function Contact() {
   return (
     <div className="container contact">
@@ -35,7 +37,7 @@ function Contact() {
       <br></br>
       <div className="row">
         <div className="col-md-12">
-          <input className="form-btn" type="submit" value="Send Message" />
+          <bottom onClick={gotop} className="form-btn" type="submit" value="Send Message">submit</bottom>
         </div>
       </div>
     </div>

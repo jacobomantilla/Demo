@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import { BrowserRouter as Routers,Route} from "react-router-dom";
-//import Login from "./containers/Login.js";
+import App from './App'
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
 
   ReactDOM.render(
     <React.StrictMode>
-        <Routers>
           <App/>
-        </Routers>
     </React.StrictMode>,
   document.getElementById('root')
 );
