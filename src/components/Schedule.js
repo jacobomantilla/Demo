@@ -97,29 +97,29 @@ class Schedule extends Component {
         {
           id: 2,
           text: "Making Your Own Paper!",
-          start: "2022-11-08",
-          end: "2022-11-09",
+          start: "2022-11-14",
+          end: "2022-11-15",
           backColor: "#ecb823",
         },
         {
           id: 3,
           text: "Community Day",
-          start: "2022-11-08",
-          end: "2022-11-08",
+          start: "2022-11-11",
+          end: "2022-11-12",
           backColor: "#6aa84f",
         },
         {
           id: 4,
           text: "Petting Zoo",
-          start: "2022-11-15",
-          end: "2022-11-16",
+          start: "2022-11-18",
+          end: "2022-11-19",
           backColor: "#3d85c6",
         },
         {
           id: 5,
-          text: "Fair Day",
-          start: "2022-11-15",
-          end: "2022-11-16"
+          text: "Thanksgiving",
+          start: "2022-11-24",
+          end: "2022-11-25"
         },
       ]
     });

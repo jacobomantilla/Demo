@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function About() {
   return (
     <>
-      <div style={{marginTop:'10rem',width:'100%',height:'10px'}} className="about-scroll"></div>
+      <div style={{marginTop:'10rem',width:'100%',height:'1px'}} className="about-scroll"></div>
       <div className='container about' > <h1> Meet the Staff </h1></div>
       <div className="container about">
         <div className="row">
