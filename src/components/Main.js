@@ -5,7 +5,7 @@ import Contact from '../components/Contact';
 import Schedule from './Schedule';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import VirtualTour from './Tour';
+import VirtualTour from './tour';
 //import Login from './Login';
 
 function Main() {
